@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+    <head>
+        <title>Allegro kava bar</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="allegro kava bar" />
+        <meta name="keywords" content="allegro kava bar, kava, pijaca, postojna" />
+        <meta name="author" content="Pajovic Nikola" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/noscript.css" />
+		</noscript>
+		<style>
+		.veseli{
+		font: 24px Tahoma;
+        line-height: 40px;
+        text-align: center;
+		}
+		</style>
+   </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <a href="http://www.balkanskinarodnikuvar.com/portfolio.html">
+                    <strong>Design by: </strong>Pajovi&#263 Nikola
+                </a>
+                <span class="right">
+                    <a href="http://www.balkanskinarodnikuvar.com/portfolio.html" target="_blank"><b>Images by: </b> Pajovi&#263 Nikola</a>
+                </span>
+                <div class="clr"></div>
+            </div>
+            <h1>allegro kava bar</h1>
+            <div class="wrapper">
+                <div id="ei-slider" class="ei-slider">
+                    <ul class="ei-slider-large">
+						<li>
+                            <img src="images/Allegro/6.jpg" alt="image06"/>
+                            <div class="ei-title">
+                                <h2><b>mirno</b></h2>
+                                <h3>okolje</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/Allegro/1.jpg" alt="image01" />
+                            <div class="ei-title">
+                                <h2><b>zunanja</b></h2>
+                                <h3>notranjost</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/Allegro/2.jpg" alt="image02" />
+                            <div class="ei-title">
+                                <h2><b>prijetno</b></h2>
+                                <h3>vzdušje</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/Allegro/3.jpg" alt="image03"/>
+                            <div class="ei-title">
+                                <h2><b>koti&#269ek za</b></h2>
+                                <h3>družbo</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/Allegro/4.jpg" alt="image04"/>
+                            <div class="ei-title">
+                                <h2><b>prijateljstvo</b></h2>
+                                <h3>ljubezen</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/Allegro/5.jpg" alt="image05"/>
+                            <div class="ei-title">
+                                <h2><b>son&#269na</b></h2>
+                                <h3>terasa</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/Allegro/aca.jpg" alt="image07"/>
+                            <div class="ei-title">
+                                <h2><b>prijazno</b></h2>
+                                <h3>osebje</h3>
+                            </div>
+                        </li>
+                    </ul><!-- ei-slider-large -->
+                    <ul class="ei-slider-thumbs">
+                        <li class="ei-slider-element">Current</li>
+						<li><a href="#">Slide 6</a><img src="images/Allegro/6.jpg" alt="thumb06" /></li>
+                        <li><a href="#">Slide 1</a><img src="images/Allegro/1.jpg" alt="thumb01" /></li>
+                        <li><a href="#">Slide 2</a><img src="images/Allegro/2.jpg" alt="thumb02" /></li>
+                        <li><a href="#">Slide 3</a><img src="images/Allegro/3.jpg" alt="thumb03" /></li>
+                        <li><a href="#">Slide 4</a><img src="images/Allegro/4.jpg" alt="thumb04" /></li>
+                        <li><a href="#">Slide 5</a><img src="images/Allegro/5.jpg" alt="thumb05" /></li>
+                        <li><a href="#">Slide 7</a><img src="images/Allegro/aca.jpg" alt="thumb07" /></li>
+                    </ul><!-- ei-slider-thumbs -->
+                </div><!-- ei-slider -->
+                <div class="reference">
+					<p class="demos"><a href="cenik.html">Cenik</a> | <a href="kontakt.html">Kontakt</a></p>
+
+                    <p class="veseli">Veseli smo va&#353ega obiska</p>
+                </div>
+            </div><!-- wrapper -->
+			<footer class="footer"><p><b>© 2014 Allegro kava bar / <a href="http://www.balkanskinarodnikuvar.com/portfolio.html">Design by: Pajovi&#263 Nikola</a></b></p>
+            </footer>
+        </div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('#ei-slider').eislideshow({
+					animation			: 'sides',
+					autoplay			: true,
+					slideshow_interval	: 3000,
+					titlespeed          : 2000,
+					titlesFactor		: 0
+                });
+            });
+        </script>
+    </body>
+</html>
